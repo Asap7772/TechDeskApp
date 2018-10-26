@@ -44,16 +44,16 @@
         \n\n3. If all else fails, bring it to the TechDesk at South.
     </string>
     <string name="projector_help">
-        We are a group of students from West Windsor-Plainsboro High School South looking to enhance
-        the technological literacy of our community by lending a hand to whomever is in need of tech
-        help. The Tech Desk operates in the Media Center throughout the day, including lunch and
-        even after school while the library is open. Other than simply showing up to the library,
-        volunteers are proactive in helping peers, including other library volunteers. Occasionally,
-        the club partners with other clubs to build websites and holds workshops with new gadgets to
-        be tinkered with. With programming and the internet in general so prevalent today,
-        especially now that more students have access to technology through chromebooks in their
-        daily lives, the HSS Tech Desk aims to dispel any technological doubts anyone may have.
-        The HSS Tech Desk is actively involved in the school community, actively developing sites
-        for fellow student-run organizations or even the district itself. More projects to be added later!
+        <b>Projector Issues</b>
+        \n\n\n1. Make sure that the power cord is properly connected to a functional AC electrical outlet and that the other end is correctly attached to the projector. A standby light should display on the projector once these steps are performed correctly and the outlet’s power is turned on.
+        \n\n2. Check all your cable connections between your projector and computer to ensure that they’re properly connected.
+        \n\n3. If your projector is plugged into a multi-plug adapter then be sure to check that it’s turned on.
+        \n\n4. Make sure that you have removed the lens cap at the front of the projector.
+        \n\n5. Verify that the projector isn’t in standby mode.
+        \n\n6. If the projector still doesn’t display an image then restart the computer.
+        \n\n7. Unplug the cable from your computer and check its display. When you reconnect the projector, remember to turn the computer and monitor off before you power up the projector. Always power the equipment back up in this order: projector, monitor, computer.
+        \n\n8. If you’re using a laptop and it isn’t displaying your presentation, ensure that you’ve activated your laptop’s external video output.
+        \n\n9. Mac computers require a specific power-up sequence - the projector must be turned on before you turn on the computer.
+        \n\n10. If your laptop’s battery is running low then put it on charge before plugging it into your projector so you don’t lose connection mid-session.
     </string>
 </resources>
