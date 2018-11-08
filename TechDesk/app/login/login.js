@@ -4,6 +4,7 @@ import styles from "./style";
 import {Image, Keyboard, Text, View, TextInput, TouchableWithoutFeedback, Alert, StatusBar, KeyboardAvoidingView} from 'react-native';
 import { Button } from 'react-native-elements';
 import Ionicons from "react-native-vector-icons/Ionicons";
+import MyCalendar from "../calendar/calendar";
 
 export default class LoginScreen extends Component {
 
@@ -15,6 +16,7 @@ export default class LoginScreen extends Component {
   };
 
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <View style={styles.containerView} behavior="padding">
 
@@ -28,11 +30,7 @@ export default class LoginScreen extends Component {
               </View>
               <TextInput placeholder="Username" placeholderColor="#c4c3cb" style={styles.loginFormTextInput} />
               <TextInput placeholder="Password" placeholderColor="#c4c3cb" style={styles.loginFormTextInput} secureTextEntry={true}/>
-              <Button
-                buttonStyle={styles.loginButton}
-                onPress={() => this.onLoginPress()}
-                title="Login"
-              />
+              <Button buttonStyle={styles.loginButton} onPress={() => navigate(MyCalendar)} title="Login" />
             </View>
           </View>
         </TouchableWithoutFeedback>

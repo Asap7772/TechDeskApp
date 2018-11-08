@@ -19,7 +19,7 @@ import Projector from "./app/FAQs/projector";
 const appControl = createStackNavigator(
   {
     login: LoginScreen,
-    calendar: MyCalendar,
+    MyCalendar: MyCalendar,
     faq: FAQ,
     WiFi: WiFi,
     Laptop: Laptop,
